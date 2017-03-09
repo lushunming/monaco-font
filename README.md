@@ -39,6 +39,7 @@ Many thanks for all the contributions!
 
 ``` bash
 ./install-font-ubuntu.sh http://usystem.googlecode.com/files/MONACO.TTF
+./install-font-ubuntu.sh https://raw.githubusercontent.com/lushunming/monaco-font/master/fonts/Consolas/consolab.ttf
 ```
 
 ---
@@ -59,7 +60,4 @@ Many thanks for all the contributions!
 ```bash
 ./install-font-gentoo.sh [url]
 ```
-
-
-Install consolas Font on Ubuntu
 
