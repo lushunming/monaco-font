@@ -61,3 +61,13 @@ Many thanks for all the contributions!
 ./install-font-gentoo.sh [url]
 ```
 
+```
+sudo apt-get install ttf-mscorefonts-installer #微软字体  
+sudo apt-get install xfonts-wqy  #文泉驿-点阵宋体  
+cd ~  
+wget http://www.stchman.com/tools/MS_fonts/tahoma.zip #Tahoma 字体  
+sudo unzip -d /usr/share/fonts/truetype/msttcorefonts ~/tahoma.zip  
+sudo fc-cache -f -v  
+rm -f ~/tahoma.zip  
+sudo fc-cache -f -s -v   #刷新字体缓存  
+```
